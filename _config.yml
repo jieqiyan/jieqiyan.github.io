@@ -8,20 +8,23 @@ plugins:
 
 title: JieQi Yan
 tagline: |
-  A student pursuing a masters in EPM
+  M.S. Student in Environmental Policy and Management
 description: |
   I'm JieQi Yan, a current graduate student at UC Davis's Environmental Policy Management Masters Program.
 url: jieqiyan.com
+favicon: /assets/images/favicon.png
+keywords: jieqi,yan,jieqi yan,jqiyan@ucdavis.edu,jieqi.yan0606@gmail.com,epm,uc davis,ucd,masters,graduate student,environmental policy management,masters program,geology
 
 author:
   name: JieQi Yan
+  email: jieqi.yan0606@gmail.com
   url: https://jieqiyan.com/
 
 logo: /assets/images/favicon.png
 
 social:
   links:
-    - https://www.linkedin.com/in/jieqi-yan-b743a8196/
+    linkedin: https://www.linkedin.com/in/jieqiyan/
 
 locale: en_US
 
