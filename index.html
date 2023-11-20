@@ -1,25 +1,16 @@
 ---
-layout: default
 title: "About"
+permalink: /
+layout: default
 ---
 
 <div class="row justify-content-center align-items-center g-5 pb-5">
     <div class="col-md-7 col-xl-9">
         <!-- Biography -->
         <h2 class="text-center text-uppercase">Bio</h2>
-        <p> JieQi is a Master of Science student in Environmental Policy and Management (EPM). She graduated
-            from California State University, Fullerton, with a B.S. in Geological Sciences. While in CSUF, she
-            was selected as LSAMP (Louis Stokes Alliances for Minority Participation) Research Scholar to
-            describe and analyze an eight-million-year-old dolphin from Orange County, CA. From 2021-2022, she
-            interned at UltraSystems Environmental Inc. in Irvine, CA, to gain experience implementing the
-            California Environmental Quality Act and the National Environmental Policy Act by preparing various
-            reports. </p>
-        <p> She is currently interested in specializing in environmental hazard mitigation. Under the Ted
-            Bradshaw Engaged Student Scholars Program, she works with Marin City Climate Resilience and Health
-            Justice to engage community members and conduct community-based needs assessments to understand the
-            flood, water, and soil pollution issues manifest from the community's perspective. Shortly, she will
-            begin her GSR position with the EPM program and a summer internship with the California Governor's
-            Office of Strategic Growth Council. </p>
+        {% for p in site.data.about.biography %}
+        <p>{{ p }}</p>
+        {% endfor %}
     </div>
     <div class="col">
         <!-- Image next to / below Biography -->
@@ -30,102 +21,16 @@ title: "About"
 <div class="col-lg-8 offset-lg-2 pb-5">
     <h2 class="text-center text-uppercase">Positions</h2>
     <dl class="row align-items-center g-4">
-        <dt class="col-sm-5">
-            Environmental Health Collaborations Assistant
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">UC Davis Health</span> <br />
-            <span class="fw-light fst-italic">Jul 2023 - Present</span>
-        </dt>
-        <dd class="col-sm-7">I assist in maintaining an up-to-date contact database of researchers, community
-            organizations, and government actors (elected officials, agencies) working on environmental health
-            issues in California. This primarily involves the maintenance of existing records and the creation
-            of new records as directed.</dd>
-        <dt class="col-sm-5">
-            Graduate Student Researcher
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">UC Davis Environmental Policy and Management Graduate Program</span>
-            <br />
-            <span class="fw-light fst-italic">Jul 2023 - Present</span>
-        </dt>
-        <dd class="col-sm-7">I source data from various activities such as freight activity, port operations,
-            industry emissions, and on-road pollutants, and various organizations such as Bay Area Air Quality
-            Management District and CARB to create a comprehensive map highlighting high-risk pollution areas in
-            the South San Francisco area.</dd>
-        <dt class="col-sm-5">
-            Graduate Student Assistant
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">Office of California Governor Gavin Newsom</span> <br />
-            <span class="fw-light fst-italic">Jun 2023 - Present</span>
-        </dt>
-        <dd class="col-sm-7">I assist in developing a cohesive and coordinated response to the impacts of
-            climate change across the state.</dd>
-        <dt class="col-sm-5">
-            Graduate Teaching Assistant
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">Department of Earth and Planetary Science</span> <br />
-            <span class="fw-light fst-italic">Aug 2022 - Present</span>
-        </dt>
-        <dd class="col-sm-7">I lead the weekly discussions, support faculty with assignment planning, and assist
-            over 60 students with their coursework.</dd>
-
-        <dt class="col-sm-5">
-            Graduate Teaching Assistant
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">Department of Biological and Agricultural Engineering</span> <br />
-            <span class="fw-light fst-italic">Jan 2023 - Apr 2023</span>
-        </dt>
-        <dd class="col-sm-7">I lead a 3-hour computer lab each week, advise students on their final projects,
-            support faculty with exam development, and grade student assignments/exams.</dd>
-        <dt class="col-sm-5">
-            Environmental Justice Researcher / Advocate
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">Marin City Climate Resilience and Health Justice</span> <br />
-            <span class="fw-light fst-italic">Jan 2023 - Jun 2023</span>
-        </dt>
-        <dd class="col-sm-7">I collected historical data and community concern sites to develop a venerability
-            map that will be used to determine the sampling location. For my deliverable, I produce a report
-            outlining the history of the community, the project proposal and the timeline.</dd>
-        <dt class="col-sm-5">
-            Cultural Resources Intern
-            <hr class="sep border-primary border-3 opacity-75">
-            <span class="fw-semibold">UltraSystems Environmental, Inc.</span> <br />
-            <span class="fw-light fst-italic">Aug 2021 - Nov 2022</span>
-        </dt>
-        <dd class="col-sm-7">Prepared and assisted projects under the department manager's supervision.
-            Conducted Anthropological research, write reports, and present findings to advise organizations
-            under supervision.</dd>
+    {% for position in site.data.about.positions %}
+        {% include position_item.html title=position.title organization=position.organization period=position.period description=position.description %}
+    {% endfor %}
     </dl>
     <div id="gallery" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/assets/images/gallery/empcohort.JPG" class="d-block w-100" alt="Image 1">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/fieldcamp2.jpg" class="d-block w-100" alt="Image 2">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/fieldportrait.JPG" class="d-block w-100" alt="Image 3">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/lab.JPG" class="d-block w-100" alt="Image 4">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/ziggy.JPG" class="d-block w-100" alt="Image 5">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/fieldcamp1.JPG" class="d-block w-100" alt="Image 6">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/fieldcamp3.JPG" class="d-block w-100" alt="Image 7">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/graduation.JPG" class="d-block w-100" alt="Image 8">
-            </div>
-            <div class="carousel-item">
-                <img src="/assets/images/gallery/symposium.JPG" class="d-block w-100" alt="Image 9">
-            </div>
+        {% for item in site.data.about.gallery %}
+            {% include carousel_item.html file=item.file description=item.description first=forloop.first %}
+        {% endfor %}
         </div>
-
         <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -143,28 +48,18 @@ title: "About"
         <!-- Honours and Awards -->
         <h2 class="text-center text-uppercase">Honours and Awards</h2>
         <ul>
-            <li>Walter J. and Alva M. Englund Scholarship</li>
-            <li>Ted Bradshaw Engaged Student Scholar</li>
-            <li>John D. Cooper Field Camp Scholarship</li>
-            <li>Louis Stokes Alliances for Minority Participation (LSMAP) Research Scholar</li>
+        {% for honour in site.data.about.honours %}
+            <li>{{ honour }}</li>
+        {% endfor %}
         </ul>
     </div>
     <div class="col-md">
         <!-- Skills -->
         <h2 class="text-center text-uppercase">Skills</h2>
         <ul>
-            <li>Fluent in Mandarin.</li>
-            <li>Phylogenetic analyses using PAUP and Mesquite.</li>
-            <li>Conduct research by academic standard.</li>
-            <li>Conduct and teach spatial analysis in ArcGIS Pro.</li>
-            <li>Analytical and verbal communication in negotiation of environmental problems and legal case
-                briefing.</li>
-            <li>Developing regulation, review, and implementation of environmental regulations.</li>
-            <li>Analyze and visualize social change using R statistical programming language.</li>
-            <li>Analyze environmental flow, simulate models, conduct cost-benefit and risk analysis in water
-                management.</li>
-            <li>Comfortable with software such as Microsoft Office, Google Workspace, Google Earth, Adobe
-                Creative Cloud.</li>
+        {% for skill in site.data.about.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
         </ul>
     </div>
 </div>

@@ -1,0 +1,11 @@
+{% if include.first %}
+<div class="carousel-item active">
+    <img src="/assets/images/gallery/{{ include.file }}" class="d-block w-100" alt="{{ include.description }}">
+</div>
+{% else %}
+<div class="carousel-item">
+    <img src="/assets/images/gallery/{{ include.file }}" class="d-block w-100" alt="{{ include.description }}">
+</div>
+{% endif %}
+
+
