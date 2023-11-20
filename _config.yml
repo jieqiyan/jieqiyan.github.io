@@ -4,5 +4,4 @@ title: "JieQi Yan" # the name of your site, e.g. ACME Corp.
 
 sass:
   load_paths:
-    - "_sass"
-    - "vendor"
+    - _sass
