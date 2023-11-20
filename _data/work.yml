@@ -1,0 +1,64 @@
+- affiliation: "ENV 200B"
+  affiliation_detail: "Environmental Policy Evaluation"
+  work_title: "Evaluating Criticisms of California’s Climate Mitigation Policy"
+  work_type: "Policy Memo"
+  work_file: "ENV200B/Policy Memo_ Evaluating Criticisms of California’s Climate Mitigation Policy.pdf"
+  term: "Spring 2023"
+
+- affiliation: "ENV 200B"
+  affiliation_detail: "Environmental Policy Evaluation"
+  work_title: "Public Comment on the Office of Management and Budget’s Proposed Revision of the Treatment of Distributional Effects in Regulatory Analysis"
+  work_type: "Policy Memo"
+  work_file: "ENV200B/Policy Memo_ Public Comment on the Office of Management and Budget’s Proposed Revision of the Treatment of Distributional Effects in Regulatory Analysis.pdf"
+  term: "Spring 2023"
+
+- affiliation: "ENV 200B"
+  affiliation_detail: "Environmental Policy Evaluation"
+  work_title: "The Power and Limitation of Economics for Public Policy Analysis"
+  work_type: "Policy Memo"
+  work_file: "ENV200B/Policy Memo_ the power and limitation of economics for public policy analysis.pdf"
+  term: "Spring 2023"
+
+- affiliation: "ENV 201"
+  affiliation_detail: "Environmental Law"
+  work_title: "Air Quality Negotiation"
+  work_type: "Negotiation Strategy"
+  work_file: "ENV201/Air Quality Negotiation.pdf"
+  term: "Winter 2023"
+
+- affiliation: "ENV 201"
+  affiliation_detail: "Environmental Law"
+  work_title: "Wildland Fire Negotiation"
+  work_type: "Negotiation Strategy"
+  work_file: "ENV201/Wildland Fire Negotiation.pdf"
+  term: "Winter 2023"
+
+- affiliation: "ENV 202"
+  affiliation_detail: "Policy Development and Implementation"
+  work_title: "National Flood Insurance Program Reform"
+  work_type: "Policy Brief"
+  work_file: "ENV202/Policy Brief_ National Flood Insurance Program Reform.pdf"
+  term: "Fall 2022"
+
+- affiliation: "GEO 212"
+  affiliation_detail: "Water Resource Management"
+  work_title: "Vulnerable Capital in a Flood-prone State"
+  work_type: "Final Project"
+  work_file: "GEO212/Final Project_ Vulnerable Capital in a Flood-prone State.pdf"
+  term: "Fall 2022"
+
+- affiliation: "HYD 243"
+  affiliation_detail: "Water Resources Planning and Management"
+  work_title: "The Beginning of World’s Largest Dam Demolition: Iron Gate Dam"
+  work_type: "Final Project"
+  work_file: "HYD243/The Beginning of World’s Largest Dam Demolition_ Iron Gate Dam.pdf"
+  term: "Spring 2023"
+
+- affiliation: |
+    <abbr title="Marin City Climate Resilience and Health Justice">MCCRHJ</abbr>
+  affiliation_detail: |
+    via the <a href="https://regionalchange.ucdavis.edu/bradshaw-scholars">Ted Bradshaw Engaged Student Scholars Program</a>
+  work_title: "Soil and Tap Water Testing"
+  work_type: "Project Proposal and Quarter Report"
+  work_file: "MCCRHJ/Project Proposal and Quarter Report.pdf"
+  term: "Fall 2022 &#8212; Winter 2023"

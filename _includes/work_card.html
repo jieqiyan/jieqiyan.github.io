@@ -1,0 +1,40 @@
+<div class="col-xl-4 col-md-6">
+    <div class="card">
+        <div class="card-header">
+            {{ include.affiliation }}<br />
+            {{ include.affiliation_detail }}
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ include.work_title }}</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">{{ include.work_type }}</h6>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#work{{ include.index }}">Preview</button>
+        </div>
+        <div class="card-footer text-body-secondary text-end">
+            {{ include.term }}
+        </div>
+        <div class="modal fade" id="work{{ include.index }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <object type="application/pdf"
+                            data="/assets/works/{{ include.work_file }}" width="100%"
+                            height="100%">
+                            Not loading? <a type="button" class="btn btn-primary" href="/assets/works/{{ include.work_file }}">Download</a>
+                        </object>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

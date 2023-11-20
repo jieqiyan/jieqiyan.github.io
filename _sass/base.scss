@@ -1,0 +1,15 @@
+@import "bootstrap-5.3.2/scss/bootstrap";
+
+
+dt > hr {
+    margin: .25em 0 .25em 0;
+}
+
+h5:target{
+    background-color: mark;
+    color: marktext;
+}
+
+h1 {
+    font-size: 1;
+}
