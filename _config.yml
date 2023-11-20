@@ -1,6 +1,32 @@
-url: "https://jieqiyan.com" # the base hostname & protocol for your site, e.g. http://example.com
-title: "JieQi Yan" # the name of your site, e.g. ACME Corp.
-
 sass:
   load_paths:
     - _sass
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+title: JieQi Yan
+tagline: |
+  A student pursuing a masters in EPM
+description: |
+  I'm JieQi Yan, a current graduate student at UC Davis's Environmental Policy Management Masters Program.
+url: jieqiyan.com
+
+author:
+  name: JieQi Yan
+  url: https://jieqiyan.com/
+
+logo: /assets/images/favicon.png
+
+social:
+  links:
+    - https://www.linkedin.com/in/jieqi-yan-b743a8196/
+
+locale: en_US
+
+
+
+
+
+

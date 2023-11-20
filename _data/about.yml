@@ -8,37 +8,44 @@ positions:
   - title: "Environmental Health Collaborations Assistant"
     organization: "UC Davis Health"
     period: "Jul 2023 - Present"
-    description: "I assist in maintaining an up-to-date contact database of researchers, community organizations, and government actors (elected officials, agencies) working on environmental health issues in California. This primarily involves the maintenance of existing records and the creation of new records as directed."
+    description: |
+      I assist in maintaining an up-to-date contact database of researchers, community organizations, and government actors (elected officials, agencies) working on environmental health issues in California. This primarily involves the maintenance of existing records and the creation of new records as directed.
 
   - title: "Graduate Student Researcher"
     organization: "UC Davis Environmental Policy and Management Graduate Program"
     period: "Jul 2023 - Present"
-    description: "I source data from various activities such as freight activity, port operations, industry emissions, and on-road pollutants, and various organizations such as Bay Area Air Quality Management District and CARB to create a comprehensive map highlighting high-risk pollution areas in the South San Francisco area."
+    description: |
+      I source data from various activities such as freight activity, port operations, industry emissions, and on-road pollutants, and various organizations such as Bay Area Air Quality Management District and CARB to create a comprehensive map highlighting high-risk pollution areas in the South San Francisco area.
 
   - title: "Graduate Student Assistant"
     organization: "Office of California Governor Gavin Newsom"
     period: "Jun 2023 - Present"
-    description: "I assist in developing a cohesive and coordinated response to the impacts of climate change across the state."
+    description: |
+      I assist in developing a cohesive and coordinated response to the impacts of climate change across the state.
 
   - title: "Graduate Teaching Assistant"
     organization: "Department of Earth and Planetary Science"
     period: "Aug 2022 - Present"
-    description: "I lead the weekly discussions, support faculty with assignment planning, and assist over 60 students with their coursework."
+    description: |
+      I lead the weekly discussions, support faculty with assignment planning, and assist over 60 students with their coursework.
 
   - title: "Graduate Teaching Assistant"
     organization: "Department of Biological and Agricultural Engineering"
     period: "Jan 2023 - Apr 2023"
-    description: "I lead a 3-hour computer lab each week, advise students on their final projects, support faculty with exam development, and grade student assignments/exams."
+    description: |
+      I lead a 3-hour computer lab each week, advise students on their final projects, support faculty with exam development, and grade student assignments/exams.
 
   - title: "Environmental Justice Researcher / Advocate"
     organization: "Marin City Climate Resilience and Health Justice"
     period: "Jan 2023 - Jun 2023"
-    description: "I collected historical data and community concern sites to develop a vulnerability map that will be used to determine the sampling location. For my deliverable, I produce a report outlining the history of the community, the project proposal and the timeline."
+    description: |
+      I collected historical data and community concern sites to develop a vulnerability map that will be used to determine the sampling location. For my deliverable, I produce a report outlining the history of the community, the project proposal and the timeline.
 
   - title: "Cultural Resources Intern"
     organization: "UltraSystems Environmental, Inc."
     period: "Aug 2021 - Nov 2022"
-    description: "Prepared and assisted projects under the department manager's supervision. Conducted Anthropological research, write reports, and present findings to advise organizations under supervision."
+    description: |
+      Prepared and assisted projects under the department manager's supervision. Conducted Anthropological research, write reports, and present findings to advise organizations under supervision.
 
 gallery:
   - file: epmcohort.JPG

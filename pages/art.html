@@ -1,0 +1,11 @@
+---
+title: "Art"
+permalink: /art
+layout: default
+---
+
+<div class="row g-5">
+{% for art in site.data.art %}
+    {% include art_card.html file=art.file method=art.method index=forloop.index %}
+{% endfor %}
+</div>
