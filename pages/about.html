@@ -25,6 +25,11 @@ layout: default
         {% include position_item.html title=position.title organization=position.organization period=position.period description=position.description %}
     {% endfor %}
     </dl>
+    <dl class="row align-items-center g-4">
+    {% for certificate in site.data.about.certification %}
+        {% include certificate_item.html certificate=certificate.certificate period=certificate.period %}
+    {% endfor %}
+    </dl>
     <div id="gallery" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
         {% for item in site.data.about.gallery %}
