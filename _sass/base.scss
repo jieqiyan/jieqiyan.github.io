@@ -5,6 +5,10 @@ dt > hr {
     margin: .25em 0 .25em 0;
 }
 
+dt > p:last-child, dd > p:last-child, dd > ul, dd {
+    margin-bottom: 0;
+}
+
 h5:target{
     background-color: mark;
     color: marktext;

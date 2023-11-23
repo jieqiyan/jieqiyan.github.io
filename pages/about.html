@@ -20,13 +20,13 @@ layout: default
 <!-- Positions & Certifications -->
 <div class="col-lg-8 offset-lg-2 pb-5">
     <h2 class="text-center text-uppercase">Positions</h2>
-    <dl class="row align-items-center g-4">
+    <dl class="row align-items-center g-4 pb-3" id="positions">
     {% for position in site.data.about.positions %}
         {% include position_item.html title=position.title organization=position.organization period=position.period description=position.description %}
     {% endfor %}
     </dl>
     <h2 class="text-center text-uppercase">Certifications</h2>
-    <dl class="row align-items-center g-4">
+    <dl class="row align-items-center g-4" id="certifications">
     {% for certificate in site.data.about.certification %}
         {% include certificate_item.html certificate=certificate.certificate period=certificate.period %}
     {% endfor %}
